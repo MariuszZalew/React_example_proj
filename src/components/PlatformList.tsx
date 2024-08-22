@@ -25,10 +25,9 @@ export const PlatformList = (Props: parentPlatformList) => {
     android: FaAndroid,
   };
   return (
-    <HStack>
+    <HStack marginY={4}>
       {Props.parent_platform_list.map(({ platform }) => (
-        // <Text>{platform.name}</Text>
-        <Icon as={iconMap[platform.slug]} />
+        <Icon as={iconMap[platform.slug]} color="gray.500" />
       ))}
     </HStack>
   );

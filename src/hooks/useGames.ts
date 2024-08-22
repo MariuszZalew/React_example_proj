@@ -6,8 +6,8 @@ export interface Game {
   name: string;
   id: number;
   background_image: string;
-  parent_platforms: {platform: parentPlatform}[]
-
+  parent_platforms: {platform: parentPlatform}[];
+  metacritic: number;
 }
 
 export interface fetchGamesRes {
