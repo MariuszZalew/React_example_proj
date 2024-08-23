@@ -1,6 +1,7 @@
 import { HStack, Image, Text } from "@chakra-ui/react";
 import logo from "../assets/react.svg";
 import { ColorModeSwitch } from "./ColorModeSwitch";
+// import { SkeletonPrev } from "./SkeletonPrev";
 
 export const NavBar = () => {
   return (
