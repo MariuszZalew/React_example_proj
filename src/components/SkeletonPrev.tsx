@@ -1,12 +1,13 @@
-import { Card, CardBody, Skeleton, SkeletonText } from "@chakra-ui/react";
+import { CardBody, Skeleton, SkeletonText } from "@chakra-ui/react";
+import { ItemWrap } from "./ItemWrap";
 
 export const SkeletonPrev = () => {
   return (
-    <Card borderRadius={10} overflow="hidden" width={"350px"}>
+    <ItemWrap>
       <Skeleton height={"250px"} />
       <CardBody>
         <SkeletonText height={"60px"} />
       </CardBody>
-    </Card>
+    </ItemWrap>
   );
 };
